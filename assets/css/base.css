@@ -1,0 +1,74 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&family=Raleway:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100&display=swap'); */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+   body {
+        font-family: "Raleway", sans-serif;
+    }
+    ul {
+      list-style-type: none;
+    }
+    a{
+      display: block;
+      text-decoration: none;
+      color: #000;    
+    }
+    h1 {
+      font-size: 64px;
+      line-height: 96px;
+    }
+
+    h1, h2 {
+      letter-spacing: 4px;
+      margin: 10px 0;
+      text-align: center;
+      font-weight: 400;
+    }
+
+    img {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+    h2 {
+      font-size: 30px;
+      line-height: 45px;   
+    }
+h2 p {
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 4px;
+  line-height: 45px;
+  text-align: center;
+  margin: 10px 0;
+ 
+}
+.JaneJohn, .janejohn-container, .WEDDING-container {
+  font-size: 15px;
+  line-height: 22.5px;
+}
+
+.heading-title h2 {
+  font-size: 36px;
+  line-height: 54px;
+  text-align: center;
+  color:#757575;
+  letter-spacing: -1px;
+  font-weight: 500;
+}
+.JaneJohn,.janejohn-container , .header-container img, .WEDDING-img img {
+  filter: grayscale(50%);
+}
+.flower img {
+  filter: none;
+}
+
+/* .header-container >.img-container .flower >img {
+  
+} */
+
+/* d,ld */

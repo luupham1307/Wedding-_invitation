@@ -1,0 +1,238 @@
+/* nav bar */
+.navbar {
+  background-color: #fff; 
+  color: black;
+  /* overflow: hidden;  */
+  position: fixed;
+  bottom: 0; 
+  width: 100%; 
+  opacity: 0.75;
+  z-index: 10;
+}
+.navbar-container {
+  padding: 8px 16px;
+  
+}
+.navbar-nav {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+  font-size: 15px;
+  line-height: 22.5px;
+  
+}
+.navbar-item {
+  width: 100%;
+}
+
+.nav-link {
+  padding: 8px 16px;
+}
+.navbar-item:hover {
+  background-color: #ccc;
+}
+.link1:hover {
+  background-color: #000;
+  color: #fff;
+}
+/* header */
+.header-container img {
+  object-fit: cover ;
+  object-position: center;
+}
+.header-container, .img-container {
+  position: relative;
+}
+
+.img-container {
+  overflow: hidden;
+  height: 100vh
+}
+.img-container img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  height: 100%;
+}
+.header-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color:#fff;
+}
+
+/* Main content */
+/*  Jane & John */
+.JaneJohn {
+  background: #ffdddd;
+  padding: 64px 16px;
+}
+.janejohn-container, .WEDDING-container {
+  max-width: 980px;
+  margin: 0 auto auto;
+}
+
+.heading-title {
+  margin: 10px 0;
+}
+
+.janejohn-img img {
+  margin: 32px 0;
+  width: 100%;
+  display: inline-block;
+}
+
+.janejohn-content p {
+  font-size: 15px;
+  line-height: 30px;
+  text-size-adjust: 100%;
+  font-style: italic;
+  margin: 15px 0;
+}
+
+.janejohn-item p {
+  margin: 15px 0;
+}
+.janejohn-link {
+  text-align: center;
+  
+}
+.janejohn-link a {
+  background-color: #000;
+  color: #fff;
+  display: inline-block;
+  font-size: 18px;
+  padding: 12px 24px;
+  border-radius: 4px;
+  line-height: 36px;
+  transition: background-color 0.3s ease;
+}
+
+.janejohn-link a:hover {
+  background-color: #ccc;
+  color: #000;
+}
+/*  you are invited */
+
+.header-text h1{
+  margin: 10px 0;
+  font-size: 64px;
+  font-weight: 400;
+
+}
+.header-text h2 {
+  margin: 10px 0;
+  font-size: 30px;
+}
+
+
+/* WEDDING */
+
+.WEDDING , .hope-container {
+  background-color: #ffdddd;
+}
+
+  .WEDDING {
+  filter: grayscale(50%);
+  padding: 80px 0;
+  text-align: center;
+  background-color: #ffdddd;
+}
+
+
+.WEDDING-img img {
+  margin: 64px 0;
+  width: 100%;
+  display: inline-block;
+}
+
+.WEDDING-box {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.WEDDING-item {
+  flex: 1;
+  display: block;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  line-height: 2;
+}
+
+.WEDDING-item h3 {
+  margin: 10px 0;
+  width: 100%;
+  font-size: 30px;
+  line-height: 45px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.WEDDING-item p {
+  margin: 15px 0;
+}
+
+/* hope */
+.hope-container {
+  color: #000;
+  text-align: center;
+  padding: 64px 16px;
+  
+}
+
+.hope-hedder {
+  font-size: 36px;
+  font-weight: 400;
+  letter-spacing: 4px;
+  line-height: 54px;
+  margin: 10px 0;
+  
+}
+
+.hope-time {
+  font-size: 18px;
+  letter-spacing: 4px;
+  line-height: 36px;
+  margin: 18px 0;
+
+}
+
+.hope-link{
+  margin: 24px 0;
+  font-size: 24px;
+  letter-spacing: 4px;
+  line-height: 2;
+}
+.hope-link a {
+  background-color: #f44336;
+  color: #fff;
+  display: inline-block;
+  font-size: 18px;
+  padding: 8px 60px;
+  border-radius: 4px;
+  line-height: 36px;
+  transition: background-color 0.3s ease;
+  opacity: 0.60;
+}
+
+.hope-link a:hover {
+  background-color: #ccc;
+  color: #000;
+}
+
+/* Footer */
+.footer {
+  color: #fff;
+  background-color: #000;
+  text-align: center;
+  padding: 32px 0;
+  margin-bottom: 32px;
+}
+.copyright span {
+  text-decoration: underline;
+}

@@ -1,0 +1,11 @@
+  @media (max-width: 600px) {
+    /* navbar */
+    .navbar-nav {
+        display: none;
+      }
+
+    /* wedding */
+    .WEDDING-box  {
+        display: inline;
+    }
+  }
